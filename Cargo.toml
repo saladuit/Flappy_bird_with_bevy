@@ -4,3 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bevy = {version = "0.15.0"}
+
+rand = "0.8.5"
+
+[target.x86_64-pc-windows-msvc]
+linker = "lld"
+rustflags = [
+  "-Lnative=/home/safoh/.xwin/crt/lib/x86_64",
+  "-Lnative=/home/safoh/.xwin/sdk/lib/um/x86_64",
+  "-Lnative=/home/safoh/.xwin/sdk/lib/ucrt/x86_64"
+]
