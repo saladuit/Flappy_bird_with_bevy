@@ -98,8 +98,8 @@ fn get_centered_pipe_position() -> f32 {
     (OBSTACLE_HEIGHT / 2. + OBSTACLE_GAP_SIZE) * PIXEL_RATIO
 }
 fn spawn_obstacles(
-    mut commands: &mut Commands,
-    mut rand: &mut ThreadRng,
+    commands: &mut Commands,
+    rand: &mut ThreadRng,
     window_width: f32,
     pipe_image: &Handle<Image>,
 ) {
