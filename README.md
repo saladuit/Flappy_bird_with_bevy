@@ -8,6 +8,11 @@ A simple Flappy Bird clone built using the Bevy game engine in Rust.
 - Randomly generated obstacles
 - Collision detection
 - Restart on collision
+## Demo
+
+Check out a video of the game in action:
+
+[![Flappy Bird Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Setup
 
