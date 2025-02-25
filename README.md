@@ -12,10 +12,7 @@ A simple Flappy Bird clone built using the Bevy game engine in Rust.
 
 Check out a video of the game in action:
 
-<video width="600" controls>
-  <source src="./media/Flappy_Bird_Gameplay.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/26f32c19-4813-4ca0-b0a2-21471ef8a513
 
 ## Setup
 
